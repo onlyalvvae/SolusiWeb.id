@@ -525,3 +525,17 @@ nav a:hover{
     transform: scale(0.97);
     background-color: #f3edff;
 }
+
+.service-card{
+    transition: 0.2s ease, box-shadow 0.2 ease;
+    cursor: pointer;
+}
+
+.service-card:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgb(112,65,166,0.15);
+}
+
+.service-card:active{
+    transform: scale(0.95);
+}
